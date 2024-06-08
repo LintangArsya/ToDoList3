@@ -1,0 +1,91 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(109, 103, 103);
+}
+
+.container {
+    margin-top: 5%;
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #eeeeee;
+}
+#tugas{
+    width: 280px;
+    border-radius: 25px;
+}
+#tanggal{
+    width: 280px;
+    border-radius: 25px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+button{
+    background-color: rgb(125, 199, 76);
+    border-radius: 12px;
+    width: 100px;
+}
+#tasklist, #completedlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.complete-button {
+    background-color: green;
+    color: white;
+}
+
+.edit-button {
+    background-color: blue;
+    color: white;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
